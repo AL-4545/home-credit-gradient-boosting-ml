@@ -1,0 +1,38 @@
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac files
+.DS_Store
+__MACOSX/
+
+# Raw Kaggle data
+data/*.csv
+data/*.pkl
+data/*.zip
+data/*.parquet
+
+# Large/intermediate prediction outputs
+outputs/*predictions*.csv
+outputs/*prediction*.csv
+outputs/*submission*.csv
+outputs/*threshold_curve*.csv
+outputs/development_oof_predictions.csv
+outputs/development_oof_threshold_curve.csv
+outputs/final_holdout_predictions.csv
+outputs/final_test_prediction_components.csv
+
+# Duplicate output folders
+outputs/results/
+outputs/submissions/
+
+# Logs/cache
+*.log
+.cache/
+.Rhistory

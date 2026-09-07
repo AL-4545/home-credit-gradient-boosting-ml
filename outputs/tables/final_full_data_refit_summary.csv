@@ -1,0 +1,13 @@
+item,value
+Full labeled observations,307511
+Full labeled defaults,24825
+Full labeled default rate,0.08072881945686496
+XGBoost raw features,160
+CatBoost raw features,157
+LightGBM raw features,160
+XGBoost fixed iterations,1396
+CatBoost fixed iterations,2073
+LightGBM fixed iterations,1740
+Ensemble members,"XGBoost, LightGBM, CatBoost"
+Ensemble weighting,Equal weight: one-third each
+Kaggle test observations,48744

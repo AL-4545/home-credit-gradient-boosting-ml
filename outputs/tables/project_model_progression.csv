@@ -1,0 +1,7 @@
+stage,model,evaluation,roc_auc,average_precision
+V1 baseline,Logistic regression,Single validation split,0.629460950912641,
+V1 tree model,Random forest,Single validation split,0.7107978692119733,
+V1 initial boosting,XGBoost,Single validation split,0.7585567489174014,
+V3 final individual model,XGBoost,Five-fold development OOF,0.785042,0.275291
+V3 final ensemble,Equal-weight ensemble,Five-fold development OOF,0.786843,0.27813
+V4 untouched holdout,Equal-weight ensemble,Untouched holdout,0.789454,0.29116

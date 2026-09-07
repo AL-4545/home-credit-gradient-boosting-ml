@@ -1,0 +1,3 @@
+dataset,selection_rule,threshold,predicted_default_count,predicted_default_rate,true_negative,false_positive,false_negative,true_positive,precision,recall,specificity,f1,f2,balanced_accuracy
+Development OOF,Threshold maximizing F2 on development out-of-fold ensemble predictions,0.08775409030956581,70570,0.28686058989951546,169125,57023,6313,13547,0.19196542440130368,0.6821248741188318,0.7478509648548738,0.29961296030078516,0.4515365642290514,0.7149879194868528
+Untouched holdout,Threshold maximizing F2 on development out-of-fold ensemble predictions,0.08775409030956581,17556,0.28544949026876737,42365,14173,1582,3383,0.192697653223969,0.6813695871097684,0.7493190420602073,0.3004307091159362,0.45207932435321785,0.7153443145849878

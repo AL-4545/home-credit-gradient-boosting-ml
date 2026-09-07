@@ -1,0 +1,10 @@
+decision,result
+Final probability model,Equal-weight gradient boosting ensemble
+Ensemble members,"XGBoost, LightGBM, CatBoost"
+Ensemble weights,One-third per model
+Development OOF ROC AUC,0.786843
+Development OOF average precision,0.27813
+Untouched holdout ROC AUC,0.7894541353662556
+Untouched holdout average precision,0.2911602357661958
+Classification-threshold rule,Threshold maximizing F2 on development out-of-fold ensemble predictions
+Locked classification threshold,0.08775409030956581

@@ -1,0 +1,4 @@
+performance_stage,model_or_pipeline,roc_auc,average_precision,interpretation
+Baseline model,Logistic regression,0.629460950912641,,Earlier application-only baseline
+Development cross-validation,Equal-weight ensemble,0.786843,0.27813,Five-fold out-of-fold development estimate
+Untouched holdout,Equal-weight ensemble,0.7894541353662556,0.2911602357661958,One-time final out-of-sample estimate

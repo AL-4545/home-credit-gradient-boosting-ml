@@ -1,0 +1,5 @@
+metric,value
+Development OOF ROC AUC,0.786843
+Development OOF average precision,0.27813
+Final holdout ROC AUC,0.7894541353662556
+Final holdout average precision,0.2911602357661958
